@@ -4,7 +4,7 @@ import './Contact.css'
 class Contact extends Component {
   render() {
     return (
-      <div className="page container">
+      <section className="page container">
         <h2>Contact Page</h2>
         <ul>
           <li>email: wes.hatch@gmail.com</li>
@@ -12,7 +12,7 @@ class Contact extends Component {
           <li>github: http://www.github.com/apathetic</li>
           <li>npm: https://www.npmjs.com/~apatheticwes</li>
         </ul>
-      </div>
+      </section>
     );
   }
 }

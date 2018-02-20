@@ -1,7 +1,7 @@
 import React, { Component }  from "react";
 import { Switch, Route, withRouter } from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
-import { Sticky } from "@apatheticwes/stickynav";
+// import { Sticky } from "@apatheticwes/stickynav";
 
 import Birds from "components/Birds";
 import Header from "components/Header";

@@ -2,9 +2,7 @@ import React from 'react'
 import './About.css'
 
 const About = () => (
-  <div className="page">
-    <section>
-      <div className="flex container">
+  <section className="page container">
         <div className="column gap">
           <p>
             developing best practices, coding standards advocate for- and
@@ -17,11 +15,7 @@ const About = () => (
             Programming NodeJS some php, python
           </p>
         </div>
-      </div>
-    </section>
 
-    <section>
-      <div className="flex container">
         <div className="column">
           <h3>Experience</h3>
           <ul>
@@ -42,11 +36,7 @@ const About = () => (
             <li>malformed.ca</li>
           </ul>
         </div>
-      </div>
-    </section>
 
-    <section>
-      <div className="flex container">
         <div className="column">
           <h3>Selected Repos</h3>
           <ul>
@@ -95,9 +85,7 @@ const About = () => (
             </li>
           </ul>
         </div>
-      </div>
-    </section>
-  </div>
+  </section>
 );
 
 export default About;

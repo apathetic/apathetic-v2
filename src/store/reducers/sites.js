@@ -1,6 +1,7 @@
 // import { FETCH } from '..types/posts';
+import list from './siteData';
 const INITIAL_STATE = {
-  items: []
+  list: list
 };
 
 export default function(state = INITIAL_STATE, action) {

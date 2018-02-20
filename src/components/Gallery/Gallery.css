@@ -16,3 +16,12 @@
   flex: 0 0 33.333%;
   min-width: 240px;
 }
+
+
+.gallery {
+  margin: 0;
+  padding: 0;
+}
+.gallery__item {
+  list-style: none;
+}

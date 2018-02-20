@@ -10,7 +10,7 @@ import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 
 // Let the reducers handle initial state
-const initialState = {};
+const initialState = { };
 const store = Store(initialState);
 
 ReactDOM.render(
