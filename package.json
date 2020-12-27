@@ -5,7 +5,7 @@
   "dependencies": {
     "@apatheticwes/scrollify": "^0.5.1",
     "@apatheticwes/stickynav": "^0.5.8",
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
     "ignore-styles": "^5.0.1",
